@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm install cloudinary",
+			"command": "npm",
+			"args": [
+				"install",
+				"cloudinary"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/chatapp-server"
+			},
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
