@@ -76,23 +76,23 @@ Whether it's staying in touch, collaborating with a group, or sharing rich media
 ## 📁 Folder Structure (Backend)
 
 backend/
-├── config/ # DB and cloudinary setup
-├── controllers/ # Business logic
-├── models/ # Mongoose schemas
-├── routes/ # Express routes
-├── sockets/ # Socket.IO logic
-├── middleware/ # Auth middlewares
-├── utils/ # Utility functions
-└── server.js # Entry point
+- ├── config/ # DB and cloudinary setup
+- ├── controllers/ # Business logic
+- ├── models/ # Mongoose schemas
+- ├── routes/ # Express routes
+- ├── sockets/ # Socket.IO logic
+- ├── middleware/ # Auth middlewares
+- ├── utils/ # Utility functions
+- └── server.js # Entry point
 
 ## 📁 Folder Structure (Frontend)
 
 frontend/
-├── components/ # Reusable components
-├── pages/ # Pages like Home, Chat, Login, etc.
-├── services/ # Axios API calls
-├── contexts/ # Global contexts (Auth, Socket)
-└── App.js
+- ├── components/ # Reusable components
+- ├── pages/ # Pages like Home, Chat, Login, etc.
+- ├── services/ # Axios API calls
+- ├── contexts/ # Global contexts (Auth, Socket)
+- └── App.js
 
 ---
 
